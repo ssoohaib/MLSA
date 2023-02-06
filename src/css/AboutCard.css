@@ -1,0 +1,64 @@
+@import url("./Vars.css");
+
+.about-card{
+
+    width: 27%;
+    /* height: 80%; */
+    background-color: var(--ambiance);
+    border-radius: 2rem;
+    padding: 1.5rem;
+
+    transition: box-shadow .4s;
+    /* border: 1px solid red; */
+}
+
+.about-card:hover{
+    /* border-bottom: 4px solid var(--blue); */
+    box-shadow: 0 0 5px var(--blue);
+}
+
+.about-card>i{
+    font-size: 1.5rem;
+}
+
+.about-card>p{
+    line-height: 1.5;
+}
+
+
+@media only screen and (min-width:1201px){
+    .about-card{
+        /* width: 25%; */
+        /* padding: 1.5rem; */
+    }    
+
+}
+  
+@media only screen and (min-width:1025px)and (max-width:1200.99px){
+    .about-card{
+        /* padding: 1.5rem; */
+
+    }
+}
+
+@media only screen and (min-width:769px)and (max-width: 1024.99px){
+    .about-card{
+        width: 25%;
+    }
+}
+
+@media only screen and (min-width:481px)and (max-width: 768.99px){
+    .about-card{
+        width: 100%;
+        padding: 1.5rem 1rem;
+        margin-top: .8rem;
+    }
+}
+
+@media only screen and (min-width:320px)and (max-width: 480.99px){
+    .about-card{
+        width: 100%;
+        padding: 1.5rem 0rem;
+        margin-top: .8rem;
+    }
+}

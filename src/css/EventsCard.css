@@ -1,0 +1,75 @@
+@import url('./Vars.css');
+
+.event-card{
+    width: 32%;
+    background-color: var(--ambiance);
+    border-radius: 2rem;
+}
+
+.card-upper{
+    width: 100%;
+
+}
+
+.card-upper>img{
+    width: 100%;
+    object-fit: contain;
+
+    border-radius: 2rem;
+}
+
+.card-bottom{
+
+    padding: 0rem 2rem 1rem;
+}
+
+.card-bottom>h1,.card-bottom>p{
+    text-align: left;
+    line-height: 1.5;
+}
+
+.reg-btn{
+    background-color: var(--blue);
+    color: white;
+    width: fit-content;
+    padding: 1rem 1.5rem;
+    border-radius: 1.5rem;
+}
+
+
+
+@media only screen and (min-width:1201px){
+    
+
+}
+  
+@media only screen and (min-width:1025px)and (max-width:1200.99px){
+    .event-card{
+        /* width: 33%; */
+    }
+
+    .card-bottom>h1,.card-bottom>p{
+        /* margin: .8rem 0; */
+    }
+}
+
+@media only screen and (min-width:769px)and (max-width: 1024.99px){
+    .event-card{
+        width: 70%;
+        margin-top: 2rem;
+    }
+}
+
+@media only screen and (min-width:481px)and (max-width: 768.99px){
+    .event-card{
+        width: 100%;
+        margin-top: 1rem;
+    }
+}
+
+@media only screen and (min-width:320px)and (max-width: 480.99px){
+    .event-card{
+        width: 100%;
+        margin-top: 1rem;
+    }
+}

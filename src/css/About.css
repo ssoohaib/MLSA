@@ -1,0 +1,77 @@
+@import url("./Vars.css");
+
+.about{
+    /* height: 50vh; */
+    /* width: 100%; */
+    display: flex;
+    justify-content: center;
+
+    /* border: 1px solid red; */
+}
+
+.about-container{
+    width: 70%;
+    /* height: 100%; */
+    padding: 2rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* justify-content: space-between; */
+
+    /* border: 1px solid black; */
+}
+
+
+.about-bottom{
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+@media only screen and (min-width:1201px){
+    .about-container{
+        width: 80%;
+    }
+
+}
+  
+@media only screen and (min-width:1025px)and (max-width:1200.99px){
+    .about-container{
+        width: 85%; 
+    }
+}
+
+@media only screen and (min-width:769px)and (max-width: 1024.99px){
+    .about-container{
+        width: 85%; 
+    }
+}
+
+@media only screen and (min-width:481px)and (max-width: 768.99px){
+    .about-container{
+        width: 90%; 
+    }
+
+    .about-bottom{
+        flex-direction: column;
+        align-items: center;
+
+        /* justify-content: space-between; */
+    }
+}
+
+@media only screen and (min-width:320px)and (max-width: 480.99px){
+    .about-container{
+        width: 95%; 
+
+    }
+
+    .about-bottom{
+        flex-direction: column;
+        align-items: center;
+
+        /* justify-content: space-between; */
+    }
+}
